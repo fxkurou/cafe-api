@@ -41,8 +41,8 @@ DJANGO_SECRET_KEY=your_secret_key_here
 
 ### 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/restaurant_voting_api.git
-cd restaurant_voting_api
+git clone https://github.com/fxkurou/cafe-api.git
+cd cafe-api
 ```
 ### 2. Build and start the Docker containers
 ```
@@ -61,8 +61,8 @@ docker-compose exec web python manage.py createsuperuser
 
 ### 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/restaurant_voting_api.git
-cd restaurant_voting_api
+git clone https://github.com/fxkurou/cafe-api.git
+cd cafe-api
 ```
 ### 2. Create and activate a virtual environment:
 ```
