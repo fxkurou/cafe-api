@@ -2,10 +2,9 @@ from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from menus.models import Menu, MenuItem
-from menus.permissions import IsStaffUser
-from menus.serializers import MenuSerializer, MenuItemSerializer
-from restaurants.models import Restaurant
+from .models import Menu, MenuItem
+from .permissions import IsStaffUser
+from .serializers import MenuSerializer, MenuItemSerializer
 
 
 class MenuListCreateAPIView(APIView):

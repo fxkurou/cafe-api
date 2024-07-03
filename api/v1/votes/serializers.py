@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from votes.models import Vote
+from api.v1.votes.models import Vote
 
 class VoteSerializer(serializers.ModelSerializer):
     class Meta:

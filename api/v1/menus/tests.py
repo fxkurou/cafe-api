@@ -2,9 +2,9 @@ import pytest
 from django.urls import reverse
 from rest_framework.test import APIClient
 from rest_framework import status
-from users.models import User
-from restaurants.models import Restaurant
-from menus.models import Menu
+from api.v1.users.models import User
+from api.v1.restaurants.models import Restaurant
+from api.v1.menus.models import Menu
 
 
 @pytest.fixture

@@ -5,9 +5,9 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
-from votes.models import Vote
-from votes.serializers import VoteSerializer
-from menus.models import MenuItem, Menu
+from api.v1.votes.models import Vote
+from api.v1.votes.serializers import VoteSerializer
+from api.v1.menus.views import MenuItem, Menu
 
 
 class VoteListCreateAPIView(APIView):

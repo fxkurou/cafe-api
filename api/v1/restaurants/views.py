@@ -3,7 +3,7 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from menus.permissions import IsStaffUser
+from api.v1.menus import IsStaffUser
 from .models import Restaurant
 from .serializers import RestaurantSerializer
 

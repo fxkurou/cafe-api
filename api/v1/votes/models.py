@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from menus.models import MenuItem
+from api.v1.menus.models import MenuItem
 
 
 class Vote(models.Model):
