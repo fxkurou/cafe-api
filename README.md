@@ -1,9 +1,5 @@
 # Cafe API
 
-## Overview
-
-This is a RESTful API for managing restaurant menus, allowing employees to vote for their preferred menu items. The API supports multiple versions to ensure compatibility with older mobile app versions.
-
 ## Features
 
 - **User Authentication**: JWT-based authentication.
@@ -27,7 +23,7 @@ This is a RESTful API for managing restaurant menus, allowing employees to vote 
 
 - Docker
 - Docker Compose
-- Python 3.8+
+- Python 3.12+
 - PostgreSQL
 
 ### Environment Variables
