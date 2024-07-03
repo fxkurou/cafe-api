@@ -1,4 +1,4 @@
-# Restaurant Voting API
+# Cafe API
 
 ## Overview
 
@@ -20,7 +20,6 @@ This is a RESTful API for managing restaurant menus, allowing employees to vote 
 - **Authentication**: JWT
 - **Containerization**: Docker, Docker Compose
 - **Testing**: PyTest
-- **Linting**: Flake8
 
 ## Setup Instructions
 
